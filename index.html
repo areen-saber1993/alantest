@@ -1,0 +1,863 @@
+
+vzf<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  ======================================================
+  Project:      [alanlifting.com]
+  Developer:    [Areen Saber]
+  Role:         Software Engineer
+  Date:         June 2026
+  Contact:      [Areen.saber@gmail.com]
+  ====================================================== 
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Lifting | Personal Lifting & Gym Coach in Erbil</title>
+    <meta name="description"
+        content="Transform your body with Alan Yassin Gardi — Top 3 bodybuilder in Kurdistan with 5+ years of experience. Personal training, online coaching, and custom plans in Erbil.">
+    <meta name="keywords"
+        content="personal trainer erbil, gym coach kurdistan, bodybuilding coach, online fitness coaching, alan lifting, alan gardi">
+    <meta name="author" content="Alan Yassin Gardi">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Alan Lifting | Personal Lifting & Gym Coach in Erbil">
+    <meta property="og:description"
+        content="Transform your body with Alan Yassin Gardi — Top 3 bodybuilder in Kurdistan with 5+ years of experience. Personal training, online coaching, and custom plans in Erbil.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alanlifting.com">
+    <meta property="og:image" content="https://alanlifting.com/images/hero-bg.png">
+    <meta property="og:site_name" content="Alan Lifting">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alan Lifting | Personal Lifting & Gym Coach in Erbil">
+    <meta name="twitter:description"
+        content="Transform your body with Alan Yassin Gardi — Top 3 bodybuilder in Kurdistan with 5+ years of experience.">
+    <meta name="twitter:image" content="https://alanlifting.com/images/hero-bg.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='5' y='5' width='90' height='90' rx='18' fill='%230a0a0a'/><text x='50' y='68' font-family='Arial Black,sans-serif' font-size='50' font-weight='900' fill='%23d4a84b' text-anchor='middle'>AL</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ===== LOADING SCREEN ===== -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="loader-bar-wrapper">
+                <div class="loader-bar"></div>
+            </div>
+            <h1 class="loader-brand">ALAN<span>LIFTING</span></h1>
+            <p class="loader-tagline">DISCIPLINE · CONSISTENCY · RESULTS</p>
+        </div>
+    </div>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">ALAN<span>LIFTING</span></a>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#results" class="nav-link">Results</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Get Started</a></li>
+            </ul>
+            <button id="hamburger" class="hamburger" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="hero-bg-wrapper">
+            <div class="hero-bg" style="background-image: url('images/hero-bg.png')"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-icon">🏆</span>
+                <span class="badge-text">Top 3 Bodybuilding – Kurdistan</span>
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                Transform Your Body.<br>
+                <span class="hero-title-accent">Elevate Your Life.</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll">Personal Lifting & Bodybuilding Coach — Erbil, Kurdistan</p>
+            <div class="hero-buttons animate-on-scroll">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Start Your Journey</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#programs" class="btn btn-secondary">
+                    <span>View Programs</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper animate-on-scroll">
+                    <div class="about-image-frame">
+                        <img src="images/coach.png" alt="Alan Yassin Gardi - Personal Fitness Coach in Erbil"
+                            loading="lazy">
+                        <div class="about-image-accent"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-text">Years<br>Experience</span>
+                    </div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <span class="section-label">About Me</span>
+                    <h2 class="section-title">I'm Alan Yassin Gardi</h2>
+                    <div class="about-divider"></div>
+                    <p class="about-text">
+                        I'm a dedicated bodybuilder and personal coach based in Erbil, Kurdistan.
+                        With over 5 years of hands-on experience and a <strong>Top 3 ranking in Kurdistan
+                            bodybuilding</strong>,
+                        I've helped hundreds of clients transform their bodies and build confidence.
+                    </p>
+                    <p class="about-text">
+                        My approach is built on discipline, science-backed training, and personalized attention
+                        — because no two bodies are the same. Whether you're just starting your fitness journey
+                        or pushing towards competition, I'll design a program that gets you real, lasting results.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item stat-item-highlight">
+                            <span class="stat-icon">🏆</span>
+                            <span class="stat-text-label">Top 3</span>
+                            <span class="stat-label">Kurdistan Bodybuilding</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="100">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label">Clients Transformed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="1000">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label">Programs Designed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section id="programs" class="section programs">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">Coaching Programs</h2>
+                <p class="section-desc">Tailored programs designed to fit your goals, schedule, and lifestyle. No
+                    cookie-cutter plans — only results.</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3 class="program-title">1-on-1 Personal Training</h3>
+                    <p class="program-desc">In-person sessions in Erbil with customized workout plans, form correction,
+                        and direct coaching. The fastest path to your goals.</p>
+                    <ul class="program-features">
+                        <li>Customized workout plans</li>
+                        <li>Real-time form correction</li>
+                        <li>Direct 1-on-1 coaching</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-card">Book Now <svg width="16" height="16" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg></a>
+                </div>
+                <div class="program-card program-card-featured animate-on-scroll">
+                    <div class="program-badge">Most Popular</div>
+                    <div class="program-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Online Coaching Program</h3>
+                    <p class="program-desc">Remote coaching with weekly check-ins, personalized workout plans, and
+                        progress tracking for clients anywhere in the world.</p>
+                    <ul class="program-features">
+                        <li>Weekly video check-ins</li>
+                        <li>Personalized workout plans</li>
+                        <li>Progress photo reviews</li>
+                        <li>24/7 messaging support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-card">Book Now <svg width="16" height="16" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg></a>
+                </div>
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                            <line x1="6" y1="1" x2="6" y2="4" />
+                            <line x1="10" y1="1" x2="10" y2="4" />
+                            <line x1="14" y1="1" x2="14" y2="4" />
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Custom Meal & Workout Plans</h3>
+                    <p class="program-desc">Tailored nutrition and training plans designed for your body type, goals,
+                        and lifestyle. Eat right, train smart, see results.</p>
+                    <ul class="program-features">
+                        <li>Personalized meal plans</li>
+                        <li>Macro & calorie targets</li>
+                        <li>Custom training splits</li>
+                        <li>Monthly plan updates</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-card">Book Now <svg width="16" height="16" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg></a>
+                </div>
+                <div class="program-card animate-on-scroll">
+                    <div class="program-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                            <circle cx="9" cy="7" r="4" />
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                        </svg>
+                    </div>
+                    <h3 class="program-title">Group Training Sessions</h3>
+                    <p class="program-desc">High-energy small group sessions for motivation, accountability, and
+                        results. Train with others who share your drive.</p>
+                    <ul class="program-features">
+                        <li>Small group (4-8 people)</li>
+                        <li>High-energy sessions</li>
+                        <li>Built-in accountability</li>
+                        <li>Community support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-card">Book Now <svg width="16" height="16" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRANSFORMATIONS SECTION ===== -->
+    <section id="results" class="section results">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Transformations</span>
+                <h2 class="section-title">Real People. Real Results.</h2>
+                <p class="section-desc">These transformations speak for themselves. Discipline + consistency + the right
+                    program = unstoppable results.</p>
+            </div>
+            <div class="results-grid">
+                <div class="result-card animate-on-scroll">
+                    <div class="result-visual">
+                        <div class="result-before">
+                            <img src="images/gallery-4.png" alt="Client before transformation" loading="lazy">
+                            <span class="result-tag">Before</span>
+                        </div>
+                        <div class="result-after">
+                            <img src="images/gallery-2.png" alt="Client after transformation" loading="lazy">
+                            <span class="result-tag">After</span>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <h3>Mohammed K.</h3>
+                        <span class="result-duration">12 Weeks</span>
+                        <p class="result-quote">"I never thought I could look like this. Alan pushed me to my limits and
+                            the results are incredible."</p>
+                    </div>
+                </div>
+                <div class="result-card animate-on-scroll">
+                    <div class="result-visual">
+                        <div class="result-before">
+                            <img src="images/gallery-6.png" alt="Client before transformation" loading="lazy">
+                            <span class="result-tag">Before</span>
+                        </div>
+                        <div class="result-after">
+                            <img src="images/gallery-3.png" alt="Client after transformation" loading="lazy">
+                            <span class="result-tag">After</span>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <h3>Ahmed R.</h3>
+                        <span class="result-duration">16 Weeks</span>
+                        <p class="result-quote">"Lost 15kg and gained serious muscle. Alan's program changed my life
+                            completely."</p>
+                    </div>
+                </div>
+                <div class="result-card animate-on-scroll">
+                    <div class="result-visual">
+                        <div class="result-before">
+                            <img src="images/gallery-8.png" alt="Client before transformation" loading="lazy">
+                            <span class="result-tag">Before</span>
+                        </div>
+                        <div class="result-after">
+                            <img src="images/gallery-5.png" alt="Client after transformation" loading="lazy">
+                            <span class="result-tag">After</span>
+                        </div>
+                    </div>
+                    <div class="result-info">
+                        <h3>Dilan S.</h3>
+                        <span class="result-duration">8 Weeks</span>
+                        <p class="result-quote">"From zero gym experience to feeling confident and strong. Best decision
+                            I ever made."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS SECTION ===== -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">What My Clients Say</h2>
+            </div>
+            <div class="testimonial-carousel animate-on-scroll">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">"Alan completely changed my approach to training. I've never felt
+                            stronger. His attention to detail and personalized plans are next level."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">H</div>
+                            <div>
+                                <h4>Haval M.</h4>
+                                <span>Online Coaching Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">"Best coach in Erbil. He knows exactly what he's doing.
+                            Professional, motivating, and the results speak for themselves."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">S</div>
+                            <div>
+                                <h4>Soran A.</h4>
+                                <span>1-on-1 Training Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">"Lost 15kg in 3 months with Alan's program. Life changing. I went
+                            from being insecure to feeling like a completely new person."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">K</div>
+                            <div>
+                                <h4>Karwan J.</h4>
+                                <span>Meal & Workout Plan Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">"I tried multiple coaches before Alan. None of them gave me the
+                            attention and knowledge that he does. My physique has completely transformed."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">D</div>
+                            <div>
+                                <h4>Dana F.</h4>
+                                <span>Group Training Client</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-quote">"As someone who lives abroad, Alan's online coaching made it
+                            possible for me to get world-class training remotely. Incredible experience."</p>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">R</div>
+                            <div>
+                                <h4>Rebwar T.</h4>
+                                <span>Online Coaching Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="testimonial-prev" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <div class="testimonial-dots" id="testimonial-dots"></div>
+                    <button class="testimonial-btn" id="testimonial-next" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS SECTION ===== -->
+    <section id="achievements" class="section achievements">
+        <div class="achievements-bg"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label section-label-gold">Credentials</span>
+                <h2 class="section-title">Achievements & Credentials</h2>
+                <p class="section-desc">Proven results, competition-tested discipline, and years of dedication to the
+                    craft.</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon-wrapper">
+                        <img src="images/trophy.png" alt="Bodybuilding trophy" loading="lazy"
+                            class="achievement-trophy-img">
+                    </div>
+                    <h3>🏆 Top 3 Bodybuilding</h3>
+                    <p>Kurdistan Region</p>
+                    <span class="achievement-tag">Competition Achievement</span>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon-wrapper">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3>5+ Years</h3>
+                    <p>Professional Experience</p>
+                    <span class="achievement-tag">Training & Coaching</span>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon-wrapper">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                    </div>
+                    <h3>Based in Erbil</h3>
+                    <p>Training Clients Locally & Worldwide</p>
+                    <span class="achievement-tag">Local & Remote</span>
+                </div>
+                <div class="achievement-card animate-on-scroll">
+                    <div class="achievement-icon-wrapper">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                    </div>
+                    <h3>100+ Clients</h3>
+                    <p>Successfully Transformed</p>
+                    <span class="achievement-tag">Proven Results</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Gallery</span>
+                <h2 class="section-title">Inside the Grind</h2>
+                <p class="section-desc">Follow the journey on social media. Every rep, every set, every step closer to
+                    greatness.</p>
+            </div>
+            <div class="gallery-grid animate-on-scroll">
+                <div class="gallery-item">
+                    <img src="images/gallery-1.png" alt="Barbell training session" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-2.png" alt="Deadlift training" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-3.png" alt="Dumbbell curl training" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.png" alt="Gym equipment" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.png" alt="Pull-up training" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-6.png" alt="Fitness lifestyle" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-7.png" alt="Bench press session" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-8.png" alt="Weight plates close-up" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-9.png" alt="Battle ropes workout" loading="lazy">
+                    <div class="gallery-overlay">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-social animate-on-scroll">
+                <a href="https://instagram.com/alangardiiii" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-social btn-instagram">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                    Follow on Instagram — @alangardiiii
+                </a>
+                <a href="https://tiktok.com/@alangardiii" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-social btn-tiktok">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43v-7.15a8.16 8.16 0 005.58 2.18V11.2a4.85 4.85 0 01-3.59-1.57 4.85 4.85 0 01-1.41-2.94z" />
+                    </svg>
+                    Follow on TikTok — @alangardiii
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Start Your Transformation</h2>
+                <p class="section-desc">Ready to take the first step? Fill out the form below and I'll get back to you
+                    within 24 hours.</p>
+            </div>
+            <div class="contact-grid">
+                <form id="contact-form" class="contact-form animate-on-scroll">
+                    <div class="form-group">
+                        <label for="form-name">Full Name</label>
+                        <input type="text" id="form-name" name="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="form-email">Email Address</label>
+                            <input type="email" id="form-email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-phone">Phone Number</label>
+                            <input type="tel" id="form-phone" name="phone" placeholder="+964 xxx xxx xxxx">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-service">Select a Service</label>
+                        <select id="form-service" name="service" required>
+                            <option value="" disabled selected>Choose your program...</option>
+                            <option value="1-on-1">1-on-1 Personal Training</option>
+                            <option value="online">Online Coaching</option>
+                            <option value="meal-workout">Meal & Workout Plans</option>
+                            <option value="group">Group Training</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-message">Your Message</label>
+                        <textarea id="form-message" name="message" rows="5"
+                            placeholder="Tell me about your goals..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit" id="form-submit">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </button>
+                    <div id="form-success" class="form-success" style="display:none;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                        <h3>Message Sent!</h3>
+                        <p>Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+                </form>
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-info-card">
+                        <h3>Let's Connect</h3>
+                        <p>Whether you're ready to start training or just have a question, don't hesitate to reach out.
+                        </p>
+                        <div class="contact-details">
+                            <a href="tel:+9647502638582" class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-detail-label">Phone / WhatsApp</span>
+                                    <span class="contact-detail-value">+964 750 263 8582</span>
+                                </div>
+                            </a>
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-detail-label">Location</span>
+                                    <span class="contact-detail-value">Erbil, Rasty, Kurdistan Region, Iraq</span>
+                                </div>
+                            </div>
+                            <a href="https://instagram.com/alangardiiii" target="_blank" rel="noopener noreferrer"
+                                class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-detail-label">Instagram</span>
+                                    <span class="contact-detail-value">@alangardiiii</span>
+                                </div>
+                            </a>
+                            <a href="https://tiktok.com/@alangardiii" target="_blank" rel="noopener noreferrer"
+                                class="contact-detail-item">
+                                <div class="contact-detail-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43v-7.15a8.16 8.16 0 005.58 2.18V11.2a4.85 4.85 0 01-3.59-1.57 4.85 4.85 0 01-1.41-2.94z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="contact-detail-label">TikTok</span>
+                                    <span class="contact-detail-value">@alangardiii</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-map-placeholder">
+                        <div class="map-pin">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <span>Erbil, Kurdistan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">ALAN<span>LIFTING</span></a>
+                    <p class="footer-tagline">Discipline. Consistency. Results.<br>Personal Lifting & Bodybuilding Coach
+                        — Erbil, Kurdistan.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/alangardiiii" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="https://tiktok.com/@alangardiii" target="_blank" rel="noopener noreferrer"
+                            aria-label="TikTok" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43v-7.15a8.16 8.16 0 005.58 2.18V11.2a4.85 4.85 0 01-3.59-1.57 4.85 4.85 0 01-1.41-2.94z" />
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/9647502638582?text=Hi%20Alan%2C%20I'm%20interested%20in%20your%20coaching%20programs!"
+                            target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#results">Results</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#programs">1-on-1 Training</a></li>
+                        <li><a href="#programs">Online Coaching</a></li>
+                        <li><a href="#programs">Meal & Workout Plans</a></li>
+                        <li><a href="#programs">Group Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><a href="tel:+9647502638582">📞 +964 750 263 8582</a></p>
+                    <p>📍 Erbil, Rasty, Kurdistan Region, Iraq</p>
+                    <p><a href="https://instagram.com/alangardiiii" target="_blank" rel="noopener noreferrer"
+                            class="footer-social-link"><svg width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg> Follow Instagram</a></p>
+                    <p><a href="https://tiktok.com/@alangardiii" target="_blank" rel="noopener noreferrer"
+                            class="footer-social-link"><svg width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.43v-7.15a8.16 8.16 0 005.58 2.18V11.2a4.85 4.85 0 01-3.59-1.57 4.85 4.85 0 01-1.41-2.94z" />
+                            </svg> Follow TikTok</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Alan Lifting. All rights reserved.</p>
+                <p style="margin-top: 5px; opacity: 0.6; font-size: 0.9em;">Developed By : Areen.Saber</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== FLOATING BUTTONS ===== -->
+    <a href="https://wa.me/9647502638582?text=Hi%20Alan%2C%20I'm%20interested%20in%20your%20coaching%20programs!"
+        target="_blank" rel="noopener noreferrer" class="floating-whatsapp" id="whatsapp-btn"
+        aria-label="Contact via WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+    <button class="floating-top" id="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- 
+  ======================================================
+  Project:      [alanlifting.com]
+  Developer:    [Areen Saber]
+  Role:         Software Engineer
+  Date:         June 2026
+  Contact:      [Areen.saber@gmail.com]
+  ====================================================== 
+-->
